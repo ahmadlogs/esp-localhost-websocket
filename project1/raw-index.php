@@ -6,7 +6,7 @@ ws://localhost:8080
 */
 
 //REPLACE WITH YOUR COMPUTER IP ADDRESS WHERE THE WEBSOCKET SERVER IS RUNNING
-define('WEBSOCKET_URL', 'ws://localhost');
+define('WEBSOCKET_URL', 'ws://localhost:81/');
 
 
 $servername = "localhost";
