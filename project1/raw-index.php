@@ -5,7 +5,8 @@ ws://192.168.0.100/test
 ws://localhost:8080
 */
 
-define('WEBSOCKET_URL', 'ws://192.168.100.100:81');
+//REPLACE WITH YOUR COMPUTER IP ADDRESS WHERE THE WEBSOCKET SERVER IS RUNNING
+define('WEBSOCKET_URL', 'ws://localhost');
 
 
 $servername = "localhost";
