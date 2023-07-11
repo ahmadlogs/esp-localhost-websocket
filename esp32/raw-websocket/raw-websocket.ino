@@ -11,8 +11,9 @@ using namespace websockets;
 
 WebsocketsClient socket;
 
-const char* ssid = "AHMED-HOME";
-const char* password = "00998877";
+//enter the ssid and password of the network where the websocket server is connected
+const char* ssid = "ENTER_SSID"; 
+const char* password = "ENTER_PASSWORD";
 
 const char* websocketServer = "ws://IP_ADDRESS:PORT/";
 boolean connected = false;
