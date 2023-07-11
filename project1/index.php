@@ -8,7 +8,8 @@
 	<button id="ledButton" onclick="toggle()">OFF</button>
 
 	<script>
-		var socket = new WebSocket('ws://192.168.100.100:81');
+		//REPLACE WITH YOUR COMPUTER IP ADDRESS WHERE THE WEBSOCKET SERVER IS RUNNING
+		var socket = new WebSocket('ws://localhost:81');
 		
 		socket.onmessage = function(event) { 
 			console.log(event.data);
