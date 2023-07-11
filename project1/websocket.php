@@ -39,7 +39,8 @@ class MyWebSocket implements MessageComponentInterface {
 	}
 }
 
-$app = new Ratchet\App("192.168.100.100", 81, "0.0.0.0");
+//REPLACE WITH YOUR COMPUTER IP ADDRESS WHERE THE WEBSOCKET SERVER IS RUNNING
+$app = new Ratchet\App("IP_ADDRESS", 81, "0.0.0.0");
 $app->route('/', new MyWebSocket, array('*'));
 
 $app->run();
