@@ -1,3 +1,11 @@
+/*************************************************************************************************
+ *  Created By: Tauseef Ahmad
+ *  Created On: 11 July, 2023
+ *  
+ *  YouTube Video: 
+ *  My Channel: https://www.youtube.com/@AhmadLogs
+ ***********************************************************************************************/
+
 #include <WiFi.h>
 #include <ArduinoWebsockets.h> //https://github.com/gilmaimon/ArduinoWebsockets/tree/master
 #include <DHT.h>
